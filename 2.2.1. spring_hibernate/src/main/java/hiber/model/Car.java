@@ -15,8 +15,6 @@ public class Car {
     @Column(name = "series")
     private int series;
 
-
-
     public Car() {
     }
 
@@ -41,9 +39,8 @@ public class Car {
         this.series = series;
     }
 
-
     @Override
     public String toString() {
-        return "Car = " + "model " + model + ", series - " + series;
+        return "model " + model + ", series - " + series;
     }
 }
