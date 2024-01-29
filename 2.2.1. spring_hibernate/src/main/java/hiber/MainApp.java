@@ -25,6 +25,8 @@ public class MainApp {
             System.out.println(user);
         }
 
+        System.out.println(userService.getUserByCar("ВАЗ",2110));
+
         context.close();
     }
 }
